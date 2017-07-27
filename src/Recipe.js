@@ -13,17 +13,11 @@ class Recipe extends Component {
 		this.relativePathName = props.location.pathname;
 	}
 
-/*
-	componentDidMount(props){
-		this.staticRecipeDetails();
-		this.dynamicRecipeDetails();
-	}
-*/
 
 	getRecipeDetails(props) {
 		let relativePathArr = this.relativePathName.split('/');
 		for(let i = 0; i < recipes.length; i++){
-			if(recipes[i].url === relativePathArr[2]){
+			if(recipes[i].url === relativePathArr[3]){
 				return recipes[i];
 			}
 		}

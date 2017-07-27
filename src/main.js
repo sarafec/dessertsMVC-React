@@ -7,8 +7,8 @@ import Recipe from './Recipe';
 const Main = () => (
 	<main>
 	<Switch>
-		<Route exact path='/' component={Landing} />
-		<Route path='/recipe' component={Recipe} />
+		<Route exact path='/dessertsMVC-React/' component={Landing} />
+		<Route path='/dessertsMVC-React/recipe' component={Recipe} />
 	</Switch>
 	</main>
 )

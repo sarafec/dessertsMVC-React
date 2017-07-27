@@ -7,7 +7,7 @@ const recipes = data;
 const recipeInfo = recipes.map((recipe, index) =>
 	<div key={index}>
 		<div className="container-segments"></div>
-		<Link className="dessert-item" to={`/recipe/${recipe.url}`}>{recipe.title}</Link>
+		<Link className="dessert-item" to={`/dessertsMVC-React/recipe/${recipe.url}`}>{recipe.title}</Link>
 	</div>
 );
 

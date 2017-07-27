@@ -8,9 +8,9 @@ class App extends Component {
   render() {
     return (
       <div className="App">
-      <Link className="header" to={`/`}>
+      <Link className="header" to={`/dessertsMVC-React/`}>
       <div className="jumbotron-photo"></div>
-      <div className="title">Desserts MVC with </div>
+      <div className="title">DessertsMVC with </div>
       <img src={logo} className="js-library-image" alt="react logo" /></Link>
       <Main />
 	</div>
