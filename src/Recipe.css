@@ -1,0 +1,42 @@
+.recipe-content {
+	font-family: 'Source Sans Pro', sans-serif;
+	margin-left: 50px;
+	margin-bottom: 20px;
+}
+
+.recipe-title {
+	text-align: left;
+	font-size: 25px;
+	margin-left: 10px;
+}
+
+.ingredients-title {
+	text-align: center;
+	margin-top: 20px;
+	margin-bottom: 5px;
+	margin-left: -50px;
+	font-size: 24px;
+}
+
+.servings {
+	margin-left: 10px;
+	text-align: left;
+}
+
+.ingredient-container {
+	text-align: center;
+	font-size: 18px;
+	margin-bottom: 5px;
+	margin-left: -50px;
+}
+
+.recipe-container {
+	margin-top: 5px;
+	margin-left: 10px;
+	font-size: 18px;
+	text-align: left;
+}
+
+.content-divider {
+	margin-bottom: 50px;
+}

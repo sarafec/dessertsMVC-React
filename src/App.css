@@ -1,0 +1,58 @@
+.App {
+  text-align: center;
+}
+
+.header {
+  color: black;
+  text-decoration: none;
+  font-family: 'Patua One', cursive;
+
+}
+
+.jumbotron-photo {
+  height: 180px;
+  width: 100%;
+  position: fixed;
+  top: 0;
+  left: 0;
+  background: url('header.jpg') center;
+  background-size: cover;
+}
+
+.title {
+  padding-top: 190px;
+  font-size: 45px;
+  font-family: 'Patua One', cursive;
+
+}
+
+.js-library-image {
+  max-height: 150px;
+  max-width: 150px;
+  padding-top: -100px;
+}
+
+.main-content {
+  margin-top: -10px;
+  margin-left: 50px;
+  margin-right: 50px;
+  margin-bottom: 20px;
+  text-align: left;
+  font-size: 20px;
+  font-family: 'Source Sans Pro', sans-serif;
+
+}
+
+.container-segments {
+  border-top: 1px solid black;
+  margin-top: 20px;
+  margin-bottom: 20px;
+  max-width: 175%;
+  margin-right: 50px;
+}
+
+.dessert-item {
+  cursor: pointer;
+  color: black;
+  text-decoration: none;
+}
