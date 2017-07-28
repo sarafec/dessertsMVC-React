@@ -1,6 +1,7 @@
 .recipe-content {
 	font-family: 'Source Sans Pro', sans-serif;
 	margin-left: 50px;
+	margin-right: 50px;
 	margin-bottom: 20px;
 }
 
@@ -15,6 +16,7 @@
 	margin-top: 20px;
 	margin-bottom: 5px;
 	margin-left: -50px;
+	margin-right: -50px;
 	font-size: 24px;
 }
 
@@ -28,6 +30,7 @@
 	font-size: 18px;
 	margin-bottom: 5px;
 	margin-left: -50px;
+	margin-right: -50px;
 }
 
 .recipe-container {
