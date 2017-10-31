@@ -13,7 +13,7 @@ class Recipe extends Component {
 		this.relativePathName = props.location.pathname;
 	}
 
-
+	// choose correct recipe from relative path
 	getRecipeDetails(props) {
 		let relativePathArr = this.relativePathName.split('/');
 		for(let i = 0; i < recipes.length; i++){
@@ -23,6 +23,7 @@ class Recipe extends Component {
 		}
 	}
 
+	// define recipe title and servings
 	staticRecipeDetails() {
 		let targetRecipe = this.getRecipeDetails();
 		return(
@@ -33,6 +34,7 @@ class Recipe extends Component {
       	)
 	}
 
+	// define recipe ingredients
 	ingredientDetails(targetRecipe) {
 		let ingredients = targetRecipe.ingredients;
 
@@ -42,6 +44,7 @@ class Recipe extends Component {
 		return formattedIngredients;
 	}
 
+	// data validation for units that are not defined
 	checkNullUnit(unit) {
 		if(unit === "NA") {
 			return "";
@@ -50,6 +53,7 @@ class Recipe extends Component {
 		}
 	}
 
+	// data validation for units defined as fractions
 	checkIfFraction(quantity){
 		let baseQuantity = quantity.split(".");
 			if (baseQuantity.length === 1){
@@ -77,7 +81,7 @@ class Recipe extends Component {
 			}
 	}
 
-
+	// add numbering to recipe instructions
 	instructionDetails(targetRecipe) {
 		let instructions = targetRecipe.steps;
 
@@ -88,6 +92,7 @@ class Recipe extends Component {
 		return formattedInstructions;
 	}
 
+	// define html for recipe ingredients and instructions
 	dynamicRecipeDetails() {
 		let targetRecipe = this.getRecipeDetails();
 		let ingredients = this.ingredientDetails(targetRecipe);

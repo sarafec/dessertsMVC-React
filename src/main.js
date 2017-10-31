@@ -4,6 +4,7 @@ import { Switch, Route } from 'react-router-dom';
 import Landing from './Landing';
 import Recipe from './Recipe';
 
+/** ROUTING **/
 const Main = () => (
 	<main>
 	<Switch>
